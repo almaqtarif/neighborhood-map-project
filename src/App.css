@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  .sidesideBar{
+      width: 25%;
+
+      
+     .venueList{
+      padding: 1rem;
+
+      .listItem{
+      list-style: none;
+      font-size: 1rem;
+      padding:  .5rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      background: #5757fe;
+      color:white;
+      display:flex;
+      align-items: center;
+      box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+     }
+     }
+     
+
+  }
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
