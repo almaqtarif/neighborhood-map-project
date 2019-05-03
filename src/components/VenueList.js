@@ -9,7 +9,7 @@ export default class VenueList extends Component {
 				<ol className='venueList'>
 					{this.props.venues &&
 					 this.props.venues.map( (venue, index) => (
-							<ListItem key={index} {...venue} handleListItemClick={this.props.handleListItemClick}/>
+							<ListItem key={index} {...venue} role="listbox" handleListItemClick={this.props.handleListItemClick}/>
 						))}
 
 				</ol>

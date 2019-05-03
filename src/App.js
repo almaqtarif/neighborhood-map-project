@@ -80,7 +80,7 @@ export default class Home extends Component {
 		    <div className="App">
 
 			    <SideBar {...this.state} handleListItemClick={this.handleListItemClick} />
-			    <Map {...this.state} handleMarkerClick={this.handleMarkerClick}/>
+			    <Map {...this.state} role={"application"} handleMarkerClick={this.handleMarkerClick}/>
 			    
 		    </div>
 		  )
